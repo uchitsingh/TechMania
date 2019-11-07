@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dimen_small">4dp</dimen>
+    <dimen name="dimen_medium">12dp</dimen>
+    <dimen name="dimen_x_medium">16dp</dimen>
+
+    <!-- RecyclerView Item  -->
+    <dimen name="post_image_height">250dp</dimen>
+
+    <!-- PostDescriptionDialog -->
+    <dimen name="post_dialog_min_width">800dp</dimen>
+    <dimen name="post_dialog_min_height">400dp</dimen>
+</resources>
