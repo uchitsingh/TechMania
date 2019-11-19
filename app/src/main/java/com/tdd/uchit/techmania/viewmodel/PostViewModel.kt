@@ -9,7 +9,7 @@ import com.tdd.uchit.techmania.data.repository.PostRepository
 import com.tdd.uchit.techmania.utils.Constant
 import io.reactivex.disposables.CompositeDisposable
 
-class PostViewModel(val repository: PostRepository) : ViewModel() {
+class PostViewModel(private val repository: PostRepository) : ViewModel() {
 
     private val disposable = CompositeDisposable()
     private var _posts: MutableLiveData<List<Post>> = MutableLiveData()

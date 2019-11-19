@@ -23,6 +23,7 @@ class PostActivity : AppCompatActivity() {
 
     private lateinit var viewModel: PostViewModel
     private lateinit var adapter: PostAdapter
+
     private val postClickListener: PostClickListener = object : PostClickListener {
         override fun onClick(post: Post) {
             val postDescriptionDialog = PostDescriptionDialog.instance(post)
